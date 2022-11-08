@@ -10,7 +10,7 @@ public class CpuDatabaseApplication {
 
 		SpringApplication.run(CpuDatabaseApplication.class, args);
 
-		
+
 
 	}
 

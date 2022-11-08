@@ -15,7 +15,9 @@ CREATE TABLE intel_cpus(
     cpu_url URL,
     vertical_segment varchar(255),
     max_temp integer,
-    sku integer
+    sku integer,
+    rating integer,
+    win_compatibility varchar(255)
 );
 
 CREATE TABLE amd_cpus(
@@ -37,7 +39,9 @@ CREATE TABLE amd_cpus(
     cpu_url URL,
     vertical_segment varchar(255),
     max_temp integer,
-    sku integer
+    sku integer,
+    rating integer,
+    win_compatibility varchar(255)
 );
 
 create table intel_original(
@@ -89,16 +93,19 @@ CREATE TABLE amd_original(
     vertical_segment varchar(255),
     max_memory_speed integer,
     max_temp integer,
-    sku integer
+    sku integer,
+    rating integer,
 );
 
+
+-- display exists because when you want to compare both AMD and INTEL processors it is necessary to have the common elements of the two processors
 CREATE TABLE display(
     id integer,
     brand varchar(255),
     cores integer,
     threads integer,
     cpu_name varchar(255),
-    launch_date timestamp,
+    launch_date varchar(255),
     lithography integer,
     base_frequency integer,
     turbo_frequency integer,
@@ -113,5 +120,22 @@ CREATE TABLE display(
     cpu_url URL,
     vertical_segment varchar(255),
     max_temp integer,
-    sku integer
+    sku integer,
+    rating integer,
+    win_compatibility varchar(255)
 );
+
+CREATE TABLE intel_benchmarks(
+    sku integer,
+    brand varchar(255)
+    rating integer,
+    benchmark_url URL
+)
+
+
+CREATE TABLE amd_benchmarks(
+    sku integer,
+    brand varchar(255)
+    rating integer,
+    benchmark_url URL
+)
