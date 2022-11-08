@@ -11,6 +11,16 @@ FROM(
 SELECT id, cores, threads, cpu_name, launch_date, lithography, base_frequency, turbo_frequency, cache_l1, cache_l2, cache_l3, tdp, product_line, socket, memory_type, cpu_url, vertical_segment, max_temp, sku
 FROM amd_original);
 
+INSERT INTO amd_benchmarks
+SELECT *
+FROM benchmarks
+where brand = 'amd';
+
+INSERT INTO intel_benchmarks
+SELECT *
+FROM benchmarks
+where brand = 'intel';
+
 -- Clean display table
 DELETE from display;
 

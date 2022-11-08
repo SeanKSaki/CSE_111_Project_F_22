@@ -127,15 +127,26 @@ CREATE TABLE display(
 
 CREATE TABLE intel_benchmarks(
     sku integer,
-    brand varchar(255)
+    brand varchar(255),
     rating integer,
     benchmark_url URL
-)
+);
 
 
 CREATE TABLE amd_benchmarks(
     sku integer,
-    brand varchar(255)
+    brand varchar(255),
     rating integer,
     benchmark_url URL
-)
+);
+
+CREATE TABLE benchmarks(
+    sku integer,
+    brand varchar(255),
+    rating integer,
+    benchmark_url URL
+);
+
+CREATE TABLE windows_versions(
+    win_version
+);
