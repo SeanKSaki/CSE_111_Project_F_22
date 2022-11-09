@@ -120,10 +120,10 @@ CREATE TABLE display(
     rating integer,
 );
 
-DELETE FROM benchmarks
+DELETE FROM benchmarks;
 
-CREATE TABLE benchmarks(
-    id integer
+CREATE TABLE cpu_benchmarks(
+    id integer,
     brand varchar(255),
     sku integer,
     rating integer,
