@@ -144,3 +144,43 @@ WHERE tdp < 50
 SELECT *
 FROM display
 WHERE memory_type LIKE '%DDR4%'
+
+
+-- User want to find an cpu from certain brand with customized rating score
+-- After filters are applied, the sql query will be edited through java according to the selections
+
+-- In this case, our user want to find AMD CPUS, and benchmark score higher than 10,000
+-- the queries will then be executed by the namedjdbctemplate and front-end will show the display table to the user
+
+select id, cores, threads, cpu_name, launch_date, lithography, base_frequency, turbo_frequency, 
+        cache_l1, cache_l2, cache_l3, tdp, product_line, socket, memory_type, cpu_url, vertical_segment, max_temp, sku, rating
+from (select * 
+        from amd_cpus as cpu_table, cpu_benchmarks as benchmarks_table
+        where cpu_table.sku = benchmarks_table.sku
+        and benchmarks_table.brand = 'amd'
+        and benchmarks_table.rating > 10000) as filtered_cpus
+
+
+        --the below code will be the code in the java file in backend
+/*
+insert into display (id, cores, threads, cpu_name, launch_date, lithography, base_frequency, turbo_frequency, cache_size, tdp, product_line, 
+                        socket, memory_type, cpu_url, vertical_segment, max_temp, sku, rating)
+select id, cores, threads, cpu_name, launch_date, lithography, base_frequency, turbo_frequency, 
+        cache_l1, cache_l2, cache_l3, tdp, product_line, socket, memory_type, cpu_url, vertical_segment, max_temp, sku, ratings
+from (select * 
+        from //:brand_cpu// as cpu_table, benchmarks as benchmarks_table
+        where cpu_table.sku = benchmarks_table.sku
+        and benchmarks_table.brand = //:brand_name//
+        and benchmarks_table.rating > //:ratings//) as filtered_cpus
+*/
+
+
+
+-- find processors that have been supported throughout the past few versions of windows to see which ones are likely to be future proof
+
+SELECT *
+from win_10_compatibility_intel as ten, win_11_compatibility_intel as eleven, win_8_compatibility_intel as eight, win_7_compatibility_intel as seven
+WHERE ten.model = eleven.model
+AND eight.model = eleven.model
+AND seven.model = eight.model;
+
