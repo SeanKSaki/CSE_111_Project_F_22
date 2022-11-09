@@ -1,0 +1,317 @@
+Manufacturer,Brand,Model
+Intel,Celeron,3205U
+Intel,Celeron,3215U
+Intel,Celeron,3755U
+Intel,Celeron,3765U
+Intel,Celeron,3855U
+Intel,Celeron,3955U
+Intel,Celeron,G3900
+Intel,Celeron,G3900E
+Intel,Celeron,G3900T
+Intel,Celeron,G3900TE
+Intel,Celeron,G3902E
+Intel,Celeron,G3920
+Intel,Core,i3-5005U
+Intel,Core,i3-5010U
+Intel,Core,i3-5015U
+Intel,Core,i3-5020U
+Intel,Core,i3-5157U
+Intel,Core,i3-6006U
+Intel,Core,i3-6098P
+Intel,Core,i3-6100
+Intel,Core,i3-6100E
+Intel,Core,i3-6100H
+Intel,Core,i3-6100T
+Intel,Core,i3-6100TE
+Intel,Core,i3-6100U
+Intel,Core,i3-6102E
+Intel,Core,i3-6157U
+Intel,Core,i3-6167U
+Intel,Core,i3-6300
+Intel,Core,i3-6300T
+Intel,Core,i3-6320
+Intel,Core,i5-5200U
+Intel,Core,i5-5250U
+Intel,Core,i5-5257U
+Intel,Core,i5-5287U
+Intel,Core,i5-5300U
+Intel,Core,i5-5350H
+Intel,Core,i5-5350U
+Intel,Core,i5-5575R
+Intel,Core,i5-5675C
+Intel,Core,i5-5675R
+Intel,Core,i5-6200U
+Intel,Core,i5-6260U
+Intel,Core,i5-6267U
+Intel,Core,i5-6287U
+Intel,Core,i5-6300HQ
+Intel,Core,i5-6300U
+Intel,Core,i5-6350HQ
+Intel,Core,i5-6360U
+Intel,Core,i5-6400
+Intel,Core,i5-6400T
+Intel,Core,i5-6402P
+Intel,Core,i5-6440EQ
+Intel,Core,i5-6440HQ
+Intel,Core,i5-6442EQ
+Intel,Core,i5-6500
+Intel,Core,i5-6500T
+Intel,Core,i5-6500TE
+Intel,Core,i5-6585R
+Intel,Core,i5-6600
+Intel,Core,i5-6600K
+Intel,Core,i5-6600T
+Intel,Core,i5-6685R
+Intel,Core,i7-5500U
+Intel,Core,i7-5550U
+Intel,Core,i7-5557U
+Intel,Core,i7-5600U
+Intel,Core,i7-5650U
+Intel,Core,i7-5700EQ
+Intel,Core,i7-5700HQ
+Intel,Core,i7-5750HQ
+Intel,Core,i7-5775C
+Intel,Core,i7-5775R
+Intel,Core,i7-5850EQ
+Intel,Core,i7-5850HQ
+Intel,Core,i7-5950HQ
+Intel,Core,i7-6500U
+Intel,Core,i7-6560U
+Intel,Core,i7-6567U
+Intel,Core,i7-6600U
+Intel,Core,i7-6650U
+Intel,Core,i7-6660U
+Intel,Core,i7-6700
+Intel,Core,i7-6700HQ
+Intel,Core,i7-6700K
+Intel,Core,i7-6700T
+Intel,Core,i7-6700TE
+Intel,Core,i7-6770HQ
+Intel,Core,i7-6785R
+Intel,Core,i7-6820EQ
+Intel,Core,i7-6820HK
+Intel,Core,i7-6820HQ
+Intel,Core,i7-6822EQ
+Intel,Core,i7-6870HQ
+Intel,Core,i7-6920HQ
+Intel,Core,i7-6970HQ
+Intel,Core,i7-7800X
+Intel,Core,i7-7820X
+Intel,Core,i7-9800X
+Intel,Core,i9-7900X
+Intel,Core,i9-7920X
+Intel,Core,i9-7940X
+Intel,Core,i9-7960X
+Intel,Core,i9-7980XE
+Intel,Core,i9-9820X
+Intel,Core,i9-9900X
+Intel,Core,i9-9920X
+Intel,Core,i9-9940X
+Intel,Core,i9-9960X
+Intel,Core,i9-9980XE
+Intel,Core,m3-6Y30
+Intel,Core,m5-6Y54
+Intel,Core,m5-6Y57
+Intel,Core,M-5Y10
+Intel,Core,M-5Y10a
+Intel,Core,M-5Y10c
+Intel,Core,M-5Y31
+Intel,Core,M-5Y51
+Intel,Core,M-5Y70
+Intel,Core,M-5Y71
+Intel,Core,m7-6Y75
+Intel,Pentium,3805U
+Intel,Pentium,3825U
+Intel,Pentium,4405U
+Intel,Pentium,4405Y
+Intel,Pentium,D1507
+Intel,Pentium,D1508
+Intel,Pentium,D1509
+Intel,Pentium,D1517
+Intel,Pentium,D1519
+Intel,Pentium,G4400
+Intel,Pentium,G4400T
+Intel,Pentium,G4400TE
+Intel,Pentium,G4500
+Intel,Pentium,G4500T
+Intel,Pentium,G4520
+Intel,Xeon,Bronze 3104
+Intel,Xeon,Bronze 3106
+Intel,Xeon,D-1513N
+Intel,Xeon,D-1518
+Intel,Xeon,D-1520
+Intel,Xeon,D-1521
+Intel,Xeon,D-1523N
+Intel,Xeon,D-1527
+Intel,Xeon,D-1528
+Intel,Xeon,D-1529
+Intel,Xeon,D-1531
+Intel,Xeon,D-1533N
+Intel,Xeon,D-1537
+Intel,Xeon,D-1539
+Intel,Xeon,D-1540
+Intel,Xeon,D-1541
+Intel,Xeon,D-1543N
+Intel,Xeon,D-1548
+Intel,Xeon,D-1553N
+Intel,Xeon,D-1557
+Intel,Xeon,D-1559
+Intel,Xeon,D-1567
+Intel,Xeon,D-1571
+Intel,Xeon,D-1577
+Intel,Xeon,D-2123IT
+Intel,Xeon,D-2141I
+Intel,Xeon,D-2142IT
+Intel,Xeon,D-2143IT
+Intel,Xeon,D-2145NT
+Intel,Xeon,D-2146NT
+Intel,Xeon,D-2161I
+Intel,Xeon,D-2163IT
+Intel,Xeon,D-2166NT
+Intel,Xeon,D-2173IT
+Intel,Xeon,D-2177NT
+Intel,Xeon,D-2183IT
+Intel,Xeon,D-2187NT
+Intel,Xeon,E3-1220 v5
+Intel,Xeon,E3-1225 v5
+Intel,Xeon,E3-1230 v5
+Intel,Xeon,E3-1235L v5
+Intel,Xeon,E3-1240 v5
+Intel,Xeon,E3-1240L v5
+Intel,Xeon,E3-1245 v5
+Intel,Xeon,E3-1258L v4
+Intel,Xeon,E3-1260L v5
+Intel,Xeon,E3-1265L v4
+Intel,Xeon,E3-1268L v5
+Intel,Xeon,E3-1270 v5
+Intel,Xeon,E3-1275 v5
+Intel,Xeon,E3-1278L v4
+Intel,Xeon,E3-1280 v5
+Intel,Xeon,E3-1285 v4
+Intel,Xeon,E3-1285L v4
+Intel,Xeon,E3-1505L v5
+Intel,Xeon,E3-1505M v5
+Intel,Xeon,E3-1515M v5
+Intel,Xeon,E3-1535M v5
+Intel,Xeon,E3-1545M v5
+Intel,Xeon,E3-1558L v5
+Intel,Xeon,E3-1565L v5
+Intel,Xeon,E3-1575M v5
+Intel,Xeon,E3-1578L v5
+Intel,Xeon,E3-1585 v5
+Intel,Xeon,E3-1585L v5
+Intel,Xeon,E5-1620 v4
+Intel,Xeon,E5-1630 v4
+Intel,Xeon,E5-1650 v4
+Intel,Xeon,E5-1660 v4
+Intel,Xeon,E5-1680 v4
+Intel,Xeon,E5-2603 v4
+Intel,Xeon,E5-2608L v4
+Intel,Xeon,E5-2609 v4
+Intel,Xeon,E5-2618L v4
+Intel,Xeon,E5-2620 v4
+Intel,Xeon,E5-2623 v4
+Intel,Xeon,E5-2628L v4
+Intel,Xeon,E5-2630 v4
+Intel,Xeon,E5-2630L v4
+Intel,Xeon,E5-2637 v4
+Intel,Xeon,E5-2640 v4
+Intel,Xeon,E5-2643 v4
+Intel,Xeon,E5-2648L v4
+Intel,Xeon,E5-2650 v4
+Intel,Xeon,E5-2650L v4
+Intel,Xeon,E5-2658 v4
+Intel,Xeon,E5-2660 v4
+Intel,Xeon,E5-2667 v4
+Intel,Xeon,E5-2680 v4
+Intel,Xeon,E5-2683 v4
+Intel,Xeon,E5-2687W v4
+Intel,Xeon,E5-2690 v4
+Intel,Xeon,E5-2695 v4
+Intel,Xeon,E5-2697 v4
+Intel,Xeon,E5-2697A v4
+Intel,Xeon,E5-2698 v4
+Intel,Xeon,E5-2699 v4
+Intel,Xeon,E5-2699A v4
+Intel,Xeon,E5-2699R v4
+Intel,Xeon,E5-4610 v4
+Intel,Xeon,E5-4620 v4
+Intel,Xeon,E5-4627 v4
+Intel,Xeon,E5-4628L v4
+Intel,Xeon,E5-4640 v4
+Intel,Xeon,E5-4650 v4
+Intel,Xeon,E5-4655 v4
+Intel,Xeon,E5-4660 v4
+Intel,Xeon,E5-4667 v4
+Intel,Xeon,E5-4669 v4
+Intel,Xeon,E7-4809 v4
+Intel,Xeon,E7-4820 v4
+Intel,Xeon,E7-4830 v4
+Intel,Xeon,E7-4850 v4
+Intel,Xeon,E7-8860 v4
+Intel,Xeon,E7-8867 v4
+Intel,Xeon,E7-8870 v4
+Intel,Xeon,E7-8880 v4
+Intel,Xeon,E7-8890 v4
+Intel,Xeon,E7-8891 v4
+Intel,Xeon,E7-8893 v4
+Intel,Xeon,E7-8894 v4
+Intel,Xeon,Gold 5115
+Intel,Xeon,Gold 5118
+Intel,Xeon,Gold 5119T
+Intel,Xeon,Gold 5120
+Intel,Xeon,Gold 5120T
+Intel,Xeon,Gold 5122
+Intel,Xeon,Gold 6126
+Intel,Xeon,Gold 6126F
+Intel,Xeon,Gold 6126T
+Intel,Xeon,Gold 6128
+Intel,Xeon,Gold 6130
+Intel,Xeon,Gold 6130F
+Intel,Xeon,Gold 6130T
+Intel,Xeon,Gold 6132
+Intel,Xeon,Gold 6134
+Intel,Xeon,Gold 6136
+Intel,Xeon,Gold 6138
+Intel,Xeon,Gold 6138F
+Intel,Xeon,Gold 6138P
+Intel,Xeon,Gold 6138T
+Intel,Xeon,Gold 6140
+Intel,Xeon,Gold 6142
+Intel,Xeon,Gold 6142F
+Intel,Xeon,Gold 6144
+Intel,Xeon,Gold 6146
+Intel,Xeon,Gold 6148
+Intel,Xeon,Gold 6148F
+Intel,Xeon,Gold 6150
+Intel,Xeon,Gold 6152
+Intel,Xeon,Gold 6154
+Intel,Xeon,Platinum 8153
+Intel,Xeon,Platinum 8156
+Intel,Xeon,Platinum 8158
+Intel,Xeon,Platinum 8160
+Intel,Xeon,Platinum 8160F
+Intel,Xeon,Platinum 8160T
+Intel,Xeon,Platinum 8164
+Intel,Xeon,Platinum 8168
+Intel,Xeon,Platinum 8170
+Intel,Xeon,Platinum 8176
+Intel,Xeon,Platinum 8176F
+Intel,Xeon,Platinum 8180
+Intel,Xeon,Silver 4108
+Intel,Xeon,Silver 4109T
+Intel,Xeon,Silver 4110
+Intel,Xeon,Silver 4112
+Intel,Xeon,Silver 4114
+Intel,Xeon,Silver 4114T
+Intel,Xeon,Silver 4116
+Intel,Xeon,Silver 4116T
+Intel,Xeon,W-2123
+Intel,Xeon,W-2125
+Intel,Xeon,W-2133
+Intel,Xeon,W-2135
+Intel,Xeon,W-2145
+Intel,Xeon,W-2155
+Intel,Xeon,W-2175
+Intel,Xeon,W-2195
+Intel,Xeon,W-3175X

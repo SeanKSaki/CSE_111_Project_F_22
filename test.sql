@@ -15,9 +15,7 @@ CREATE TABLE intel_cpus(
     cpu_url URL,
     vertical_segment varchar(255),
     max_temp integer,
-    sku integer,
-    rating integer,
-    win_compatibility varchar(255)
+    sku integer
 );
 
 CREATE TABLE amd_cpus(
@@ -39,9 +37,7 @@ CREATE TABLE amd_cpus(
     cpu_url URL,
     vertical_segment varchar(255),
     max_temp integer,
-    sku integer,
-    rating integer,
-    win_compatibility varchar(255)
+    sku integer
 );
 
 create table intel_original(
@@ -122,31 +118,58 @@ CREATE TABLE display(
     max_temp integer,
     sku integer,
     rating integer,
-    win_compatibility varchar(255)
 );
 
-CREATE TABLE intel_benchmarks(
-    sku integer,
-    brand varchar(255),
-    rating integer,
-    benchmark_url URL
-);
-
-
-CREATE TABLE amd_benchmarks(
-    sku integer,
-    brand varchar(255),
-    rating integer,
-    benchmark_url URL
-);
+DELETE FROM benchmarks
 
 CREATE TABLE benchmarks(
-    sku integer,
+    id integer
     brand varchar(255),
+    sku integer,
     rating integer,
     benchmark_url URL
 );
 
-CREATE TABLE windows_versions(
-    win_version
+
+CREATE TABLE win_11_compatibility_intel(
+    manufacturer VARCHAR(255),
+    brand VARCHAR(255),
+    model VARCHAR(255)
 );
+CREATE TABLE win_10_compatibility_intel(
+    manufacturer VARCHAR(255),
+    brand VARCHAR(255),
+    model VARCHAR(255)
+);
+CREATE TABLE win_8_compatibility_intel(
+    manufacturer VARCHAR(255),
+    brand VARCHAR(255),
+    model VARCHAR(255)
+);
+CREATE TABLE win_7_compatibility_intel(
+    manufacturer VARCHAR(255),
+    brand VARCHAR(255),
+    model VARCHAR(255)
+);
+
+CREATE TABLE win_11_compatibility_amd(
+    manufacturer VARCHAR(255),
+    brand VARCHAR(255),
+    model VARCHAR(255)
+);
+CREATE TABLE win_10_compatibility_amd(
+    manufacturer VARCHAR(255),
+    brand VARCHAR(255),
+    model VARCHAR(255)
+);
+CREATE TABLE win_8_compatibility_amd(
+    manufacturer VARCHAR(255),
+    brand VARCHAR(255),
+    model VARCHAR(255)
+);
+CREATE TABLE win_7_compatibility_amd(
+    manufacturer VARCHAR(255),
+    brand VARCHAR(255),
+    model VARCHAR(255)
+);
+
