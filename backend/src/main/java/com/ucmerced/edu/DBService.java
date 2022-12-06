@@ -31,6 +31,7 @@ public class DBService {
     static final String tables = "SELECT name from sqlite_schema where type = 'table';";
     static final String display = "select * from display;";
 
+    @GetMapping("getDisplay")
     public List<CPUObject> getall(){
         log.info("Content from display");
         List<CPUObject> output = localtemplate.query(display, new RowMapper<CPUObject>() {
