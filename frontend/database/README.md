@@ -1,5 +1,7 @@
-requires: 
+requires:
+
 ag-grid-react
+
 ag-grid-community
 
 # Getting Started with Create React App
